@@ -1,7 +1,8 @@
 function highlight() {
-    //Write your code here
-
-
+	var x = document.getElementsByTagName("strong");
+    for(var i = 0; i < x.length; i++){
+        x[i].style.color = "green";
+    }
 }
 
 
