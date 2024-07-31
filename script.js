@@ -7,7 +7,8 @@ function highlight() {
 
 
 function return_normal() {
-    //Write your code here
-
-    
+	var x = document.getElementsByTagName("strong");
+    for(var i = 0; i < x.length; i++){
+        x[i].style.color = "black";
+    }
 }
